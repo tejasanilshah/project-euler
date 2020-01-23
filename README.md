@@ -1,22 +1,32 @@
-# project-euler
+# Project Euler
 
- Contains hints and solutions in Python to questions from [Project Euler](https://projecteuler.net/)
+Hints to questions from [Project Euler](https://projecteuler.net/)
 
- Please use the repo to learn and not cheat. I'll put up helpful hints to questions in the directory of the question
+Here you can find hints and little breadcrumbs that can lead you to a solution of the problem.
 
- All directories will look like so.
- ```bash
- .
- ├───p***
- │   ├── p***.py      #Contains the python code for the question
- │   ├── p***.md      #Contains the solution and detailed explanation
- │   └── README.md    #Contains hints and helpful explanations
- ├───...
- ├───...
- ```
- So you could use the hints to try and learn, and then head over to the solution if you really just want to get the green tick.
+# Why?
+Getting stuck on a problem is no fun, and looking up the solution is counterproductive.
+These hints should serve as starting points, or should help with common mistakes that you can run into while solving the problems.
 
-# Common tips and hints
- 1. When solving any problem, try to generalize the input. This is a common theme that runs throughout CS and Programming in general. For some quick hacks it's okay to rely on the raw power of the machine, but it's better to get to an efficient implementation. So if a problem says solve for 10<sup>3</sup>, try to think what will happen if I try to solve for 10<sup>4</sup> or 10<sup>6</sup>
+## Contents
+* [Common tips and hints](#common-tips-and-hints)
+* [Problem 001: Multiples of 3 and 5](#problem-001)
+* [Problem 002: Even Fibonacci numbers](#problem-002)
 
-PS: If you do want to cheat there are other repos out there that give you just the numerical answer. It just defeats the point of the entire website. So I encourage you to try to learn and reach out for help if you are stuck.
+## Common tips and hints
+1. When solving any problem, try to generalize the input.
+	* Some problems could be solved by relying on the raw power of the CPU. The idea is to get to an efficient solution that can run fairly fast as the input size grows.
+2. Do not be in a rush to write code. 
+	* Stop, evaluate and work it out on a piece of paper before trying to get the computer to solve it.
+
+## Problem 001
+[Mutiples of 3 and 5](https://projecteuler.net/problem=1)
+[Arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression)
+
+## Problem 002
+[Even Fibonacci numbers](https://projecteuler.net/problem=2)
+In order to get to the sum, at the very least we need to generate the even numbers of the sequence.
+A brute force approach works, but if we could generate only the even numbers in the sequence it would make the solution a lot more efficient.
+
+PS: If you do want to cheat there are other repos out there that give you just the numerical answer. 
+It just defeats the point of the entire website. So I encourage you to try to learn and reach out for help if you are stuck.

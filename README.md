@@ -28,7 +28,7 @@ Full question: [Mutiples of 3 and 5](https://projecteuler.net/problem=1)
 [Arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression)
 
 ## Problem 002
-Full question: [Even Fibonacci numbers](http5s://projecteuler.net/problem=2)
+Full question: [Even Fibonacci numbers](https://projecteuler.net/problem=2)
 
 In order to get to the sum, at the very least we need to generate the even numbers of the sequence.
 
